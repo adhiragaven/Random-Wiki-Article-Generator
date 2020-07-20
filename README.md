@@ -9,11 +9,13 @@ NOTE:
 Output be like:
     1st:
        would you like to read about{Article name}(Y/N)?
-            #IF Y it will show the summary of the article
-            #if N it will show another article name.
-    2nd:        
-            #if q it will close
+       
+            IF Y it will show the summary of the article
+            if N it will show another article name.      
+            if q it will close
+    2nd:   
+    
       if y and after summary it will ask
            open WIKI page i browser?(y\n)
-           #if y it will move to browser
-           #if n it will generate new one.
+           if y it will move to browser
+           if n it will generate new one.
